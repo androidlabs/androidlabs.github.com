@@ -1,0 +1,103 @@
+body {
+   background: #00ff00 url('img/background.jpg') no-repeat fixed center;
+   margin-top: 1.0em;
+}
+
+div.box {
+   height: 600px;
+   width: 60%;
+   border: 1px solid #000000;
+   position: absolute;
+   left: 20%;
+   top: 50px;
+   padding: 2em 2em;
+}
+
+div.box_contents {
+   background-color:transparent;
+   height: 100%;
+   position: relative;
+   width: 100%;
+   z-index: 101;
+}
+
+div.box_background {
+   background-color: white;
+   height: 100%;
+   filter:alpha(opacity=75); /* IE's opacity*/
+   left: 0px;
+   opacity: 0.75;
+   position: absolute;
+   top: 0px;
+   width: 100%;
+   z-index: 99;
+}
+
+body {
+   margin-top: 1.0em;
+   background-color: #c2d69a;
+   font-family: "Helvetica,Arial,FreeSans";
+   color: #000000;
+}
+
+#container {
+   margin: 0 auto;
+   width: 700px;
+}
+
+h1 { 
+	font-size: 3.8em; 
+	color: #3d2965; 
+	margin-bottom: 3px; 
+}
+
+h1 .small { 
+	font-size: 0.4em; 
+}
+
+h1 a { 
+	text-decoration: none 
+}
+
+h2 { 
+	font-size: 1.5em; 
+	color: #3d2965; 
+}
+
+h3 { 
+	text-align: center; 
+	color: #3d2965; 
+}
+
+a { 
+	color: #3d2965; 
+}
+
+.description { 
+	font-size: 1.2em; 
+	margin-bottom: 30px; 
+	margin-top: 30px; 
+	font-style: italic;
+}
+
+.download { 
+	float: right; 
+}
+
+pre { 
+	background: #000; 
+	color: #fff; 
+	padding: 15px;
+}
+
+hr { 
+	border: 0; 
+	width: 80%; 
+	border-bottom: 1px solid #aaa
+}
+
+.footer { 
+	text-align:center; 
+	padding-top:30px; 
+	font-style: italic; 
+}
